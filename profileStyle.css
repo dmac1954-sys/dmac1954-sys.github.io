@@ -1,0 +1,61 @@
+.navbar {
+  background-color: #444; /* Darker shade for a more refined look */
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 1.1em;
+  color: #f9f9f9;
+}
+
+.nav-link {
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffdd57; /* A golden hue for active/hover states */
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.card-title {
+  font-family: "Playfair Display", serif;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9em;
+  color: #666; /* Softer text color for readability */
+}
+
+.card-items {
+  font-size: 0.9em;
+  color: #666; /* Softer text color for readability */
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+footer small {
+  font-size: 0.8em;
+}
+
+.table-striped {
+  border: 3px solid black; /* Strong outer border for the entire table */
+}
+
+
+.table-striped th,
+.table-striped td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd; /* Horizontal line styling */
+}
